@@ -1,0 +1,19 @@
+---
+layout: default
+title: Home
+nav: home
+home: true
+---
+<section class="intro">
+<h1>ともきのホームページ</h1>
+<p>鹿児島大学大学院 農林水産学研究科<br>農地工学研究室</p>
+<p>降雨による土壌侵食と、SfM写真測量を用いた侵食量の推定について研究しています。</p>
+<p><a href="https://researchmap.jp/tiwata0601">researchmap</a></p>
+</section>
+<section class="section">
+<h2>最近のNotes</h2>
+{% for post in site.posts limit:5 %}
+<article class="note note-row"><div class="note-meta"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%Y.%m.%d" }}</time>{% if post.kind %}<span>{{ post.kind | escape }}</span>{% endif %}</div><div><h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>{% if post.description %}<p>{{ post.description | escape }}</p>{% endif %}</div></article>
+{% else %}<p class="muted">記事はまだありません。</p>{% endfor %}
+<p class="all-notes"><a href="{{ '/notes/' | relative_url }}">Notesの一覧へ</a></p>
+</section>

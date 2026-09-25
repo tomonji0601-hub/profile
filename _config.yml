@@ -1,0 +1,24 @@
+title: "ともきのホームページ"
+description: "土壌侵食・写真測量・防災に関する研究紹介、論文や研究活動についての記録。"
+lang: ja
+timezone: Asia/Tokyo
+url: "https://tomonji0601-hub.github.io"
+baseurl: "/profile"
+markdown: kramdown
+permalink: /notes/:year/:month/:day/:title/
+exclude: [README.md, Gemfile, Gemfile.lock, vendor, preview.html, preview-research.html, preview-notes.html]
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+# 研究写真を assets/ に入れ、例 "/assets/field.jpg" を指定します。
+cover_image: ""
+cover_alt: ""
+cover_caption: ""

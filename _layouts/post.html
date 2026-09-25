@@ -1,0 +1,7 @@
+---
+layout: default
+---
+<article class="article"><a class="back" href="{{ '/notes/' | relative_url }}">Notesの一覧へ</a><p class="muted">{{ page.date | date: "%Y.%m.%d" }}{% if page.kind %} · {{ page.kind | escape }}{% endif %}</p><h1>{{ page.title | escape }}</h1>
+{% if page.tags.size > 0 %}<p class="tags">{% for tag in page.tags %}<span>{{ tag | escape }}</span>{% endfor %}</p>{% endif %}
+{% if page.paper_title %}<aside class="citation"><strong>紹介する論文</strong><p>{{ page.authors | escape }}{% if page.year %} ({{ page.year | escape }}){% endif %}. {{ page.paper_title | escape }}. <em>{{ page.journal | escape }}</em>.</p>{% if page.doi_url and page.doi_url != "" %}<a href="{{ page.doi_url | escape }}">原論文を読む（DOI）</a>{% endif %}</aside>{% endif %}
+<div class="prose">{{ content }}</div></article>
