@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "〇〇の論文を読んで"
+title: "#1 修論への道①"
 date: 2026-09-25
 kind: "論文"
-description: "この論文で扱われた方法と、自分の研究との関連をまとめました。"
+description: ""
 ---
 
 ## 論文情報
 
-- 著者：
-- 発表年：
-- 論文タイトル：
-- 掲載誌：
-- DOI：[論文へのリンク](https://doi.org/ここをDOIに変更)
+- 著者：Lea Epple, Oliver Grothum, Anne Bienert, Anette Eltner
+- 発表年：2025年
+- 論文タイトル：Decoding rainfall effects on soil surface changes: Empirical separation of sediment yield in time-lapse SfM photogrammetry measurements
+- 掲載誌：Soil & Tillage Research
+- DOI：[論文へのリンク](https://doi.org/10.1016/j.still.2024.106384))
 
 ## どのような研究か
 
