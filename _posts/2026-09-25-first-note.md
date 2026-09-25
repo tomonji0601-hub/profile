@@ -12,16 +12,12 @@ description: ""
 - 発表年：2025年
 - 論文タイトル：Decoding rainfall effects on soil surface changes: Empirical separation of sediment yield in time-lapse SfM photogrammetry measurements
 - 掲載誌：Soil & Tillage Research
-- DOI：[論文へのリンク](https://doi.org/10.1016/j.still.2024.106384))
+- DOI：[論文へのリンク](https://doi.org/10.1016/j.still.2024.106384)
 
-## どのような研究か
-
+## 研究の概要（目的・背景）
 研究の目的や背景を書きます。
 
-## 方法と主な結果
+## 研究手法・結論
 
-用いられた方法と、分かったことを書きます。
+## 関連性・感想
 
-## 自分の研究との関連・感想
-
-参考になった点や、疑問に思った点を書きます。
